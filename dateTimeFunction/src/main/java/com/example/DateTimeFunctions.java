@@ -58,8 +58,8 @@ public class DateTimeFunctions {
 		//YOUR CODE STARTS HERE
 		Period diff = Period.between(date1, date2);
         int years = Math.abs(diff.getYears());
-        int months = Maths.abs(diff.getMonths());
-        int days = Maths.abs(diff.getDays());
+        int months = Math.abs(diff.getMonths());
+        int days = Math.abs(diff.getDays());
 
         return "Year-" + years + ":Months-" + months + ":Days-" + days;
 		//YOUR CODE ENDS HERE
